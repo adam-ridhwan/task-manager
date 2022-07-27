@@ -1,13 +1,63 @@
-body {
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.task-container {
+  width: 500px;
+  margin: 0;
+}
+
+.add-task-container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+form {
+  margin: 0;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  padding: 10px;
+  margin: 10px;
+  width: inherit;
+  flex: 1 1 auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  width: 500px;
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+textarea {
+  width: inherit;
+  margin: 0;
+}
+
+.task-list {
+  margin: 10px;
+  width: 500px;
+  border: 1px saddlebrown solid;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
